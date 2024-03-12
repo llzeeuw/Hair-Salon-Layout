@@ -86,15 +86,19 @@ main{
   height: 130vh;
   background: url('/hero-image.jpg') no-repeat center;
   background-size: cover;
-  padding: 5rem;
+  padding: 5rem 1rem 5rem 5rem;
   margin-bottom: 4rem;
 }
 
 .hero{
-  /*display: flex;*/
+  display: flex;
 }
 
 .hero-section-right{
+  display: flex;
+  flex-basis: 50%;
+  justify-content: end;
+  align-items: center
 }
 
 main h1, main h3{
@@ -121,7 +125,7 @@ main h3{
   font-family:"Mona Sans", 'Times New Roman', Times, serif;
   background: black;
   color: white;
-  width: 12%;
+  width: 25%;
 }
 
 a .btn-dark{
@@ -129,7 +133,7 @@ a .btn-dark{
 }
 
 .discount{
-  width: 20%;
+  flex-basis: 20%;
   padding: 2.5rem 2rem;
   line-height: 1.8;
   margin-top: 4rem;
@@ -138,6 +142,7 @@ a .btn-dark{
 .discount-span{
   font-size: 2.5rem;
 }
+
 .mid-par{
   font-size: 1.6rem;
 }
@@ -148,12 +153,24 @@ a .btn-dark{
   color: black;
 }
 
-/* Should be moved to the right */
 .schedule{
   font-weight: bold;
+  font-size: 1.2rem;
   color: white;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+}
+
+.slider-arrows{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.slider-arrows i{
+  font-size: 2rem;
+  color: white;
+  padding-right: 3rem;
 }
 
 /* Style Services, About, and Team Sector */
@@ -170,7 +187,7 @@ a .btn-dark{
 }
 
 .service-card{
-  width: 25%;
+  flex-basis: 25%;
   text-align: center;
   line-height: 1.8;
 }
@@ -194,7 +211,11 @@ a .btn-dark{
 }
 
 .about-left, .about-right{
-  width: 50%;
+  flex-basis: 48%;
+}
+
+.about-left{
+  padding: 2rem;
 }
 
 .about-right{
@@ -208,11 +229,13 @@ a .btn-dark{
 }
 
 .about-p{
+  color: gray;
   line-height: 1.8;
+  margin-bottom: 2rem;
 }
 
 .btn-read{
-  width: 20%;
+  flex-basis: 40%;
 }
 
 /* Style Team Sector */
