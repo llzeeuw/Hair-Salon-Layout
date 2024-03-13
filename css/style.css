@@ -22,7 +22,7 @@
 /*******************************************/
 
 /* Import Roboto font for navbar*/ 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,2.500;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 /* Import Mona Sans font for headings*/ 
@@ -253,6 +253,33 @@ a .btn-dark{
 
 .team-card{
   text-align: center;
+}
+
+.stylist-name{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.stylist-job-title{
+  font-size: 0.8rem;
+}
+
+.stylist{
+  width: 80%;
+  font-family:"Mona Sans", 'Times New Roman', Times, serif;
+  background: black;
+  color: white;
+  position: relative;
+  bottom: 4rem;
+  padding: 0.5rem 2.5rem 1rem 2.5rem;
+  margin: 0 auto;
+}
+
+/* Style News section */
+
+.news{
+  background: url(/img/Promo-Banner-Image.jpg) no-repeat;
 }
 
 
