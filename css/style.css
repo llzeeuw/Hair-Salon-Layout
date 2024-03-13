@@ -281,21 +281,23 @@ a.btn-dark{
 
 .news{
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: flex-start;
   width: 80%;
   background: url(/img/Promo-Banner-Image.jpg) no-repeat;
   background-size: cover;
   padding: 6rem;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .news-left{
-  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.small-heading{
+
+.news-left .small-heading{
   font-weight: bold;
 }
 
@@ -306,6 +308,7 @@ a.btn-dark{
 /* Style Lookbook Section */
 
 .lookbook{
+  margin-top: 6rem;
   text-align: center;
 }
 
@@ -314,7 +317,9 @@ a.btn-dark{
 }
 
 .lookbook i{
+  font-size: 2rem;
   color: black;
+  font-weight: bold;
 }
 
 .gallery{
