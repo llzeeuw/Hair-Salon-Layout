@@ -42,6 +42,8 @@ body{
 /* LAYOUT
 /*******************************************/
 
+/* Style navbar */
+
 header nav{
   background: white;
   width: 100%;
@@ -80,6 +82,7 @@ header i{
   font-size: 1.7rem;
 }
 
+/* Style Main */
 
 main{
   width: 100%;
@@ -96,9 +99,9 @@ main{
 
 .hero-section-right{
   display: flex;
-  flex-basis: 50%;
-  justify-content: end;
-  align-items: center
+  flex-basis: 65%;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 main h1, main h3{
@@ -137,6 +140,7 @@ a .btn-dark{
   padding: 2.5rem 2rem;
   line-height: 1.8;
   margin-top: 4rem;
+  margin-bottom: 10rem;
 }
 
 .discount-span{
@@ -155,11 +159,14 @@ a .btn-dark{
 
 .schedule{
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
+
+/* Position Slider arrow icons on the right */
+
 
 .slider-arrows{
   display: flex;
@@ -171,6 +178,10 @@ a .btn-dark{
   font-size: 2rem;
   color: white;
   padding-right: 3rem;
+}
+
+.slider-arrows i:hover{
+  color:#CA2077;
 }
 
 /* Style Services, About, and Team Sector */
@@ -243,12 +254,6 @@ a .btn-dark{
 .team-card{
   text-align: center;
 }
-
-  /******************************************
-  /* ADDITIONAL STYLES
-  /*******************************************/
-  
-
 
 
 /******************************************
