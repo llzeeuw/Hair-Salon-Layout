@@ -131,7 +131,7 @@ main h3{
   width: 25%;
 }
 
-a .btn-dark{
+a.btn-dark{
   text-align: center;
 }
 
@@ -184,11 +184,12 @@ a .btn-dark{
   color:#CA2077;
 }
 
-/* Style Services, About, and Team Sector */
+/* Style Services, About and Team Sector */
 
 .services, .about, .team{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 4rem;
 }
 
@@ -279,10 +280,58 @@ a .btn-dark{
 /* Style News section */
 
 .news{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 80%;
   background: url(/img/Promo-Banner-Image.jpg) no-repeat;
+  background-size: cover;
+  padding: 6rem;
+  margin: 2rem auto;
 }
 
+.news-left{
+  gap: 4rem;
+}
 
+.small-heading{
+  font-weight: bold;
+}
+
+.news-left .btn-dark{
+  width:50%;
+}
+
+/* Style Lookbook Section */
+
+.lookbook{
+  text-align: center;
+}
+
+.lookbook h4{
+  margin-bottom: 0.5rem;
+}
+
+.lookbook i{
+  color: black;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.gallery-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img{
+  margin: 1rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
