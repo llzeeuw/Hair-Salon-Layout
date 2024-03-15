@@ -60,7 +60,7 @@ header nav ul{
   list-style-type: none;
 }
 
-header nav ul li, .btn{
+header nav ul li, header .btn{
   font-family: "roboto", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -114,7 +114,7 @@ main h1, main h3{
 
 main h3{
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .btn{
@@ -131,8 +131,13 @@ main h3{
   width: 25%;
 }
 
+
 a.btn-dark{
   text-align: center;
+}
+
+.btn-dark:hover, .btn-book:hover{
+  color: #CA2077;
 }
 
 .discount{
@@ -140,7 +145,6 @@ a.btn-dark{
   padding: 2.5rem 2rem;
   line-height: 1.8;
   margin-top: 4rem;
-  margin-bottom: 10rem;
 }
 
 .discount-span{
@@ -149,6 +153,7 @@ a.btn-dark{
 
 .mid-par{
   font-size: 1.6rem;
+  margin-bottom: 3rem;
 }
 
 .btn-book{
@@ -156,6 +161,9 @@ a.btn-dark{
   background: white;
   color: black;
 }
+
+/* Position Schedule and Slider arrow icons on the right */
+
 
 .schedule{
   font-weight: bold;
@@ -165,13 +173,11 @@ a.btn-dark{
   text-orientation: mixed;
 }
 
-/* Position Slider arrow icons on the right */
-
-
 .slider-arrows{
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
+  margin-top: 12rem;
 }
 
 .slider-arrows i{
@@ -184,9 +190,9 @@ a.btn-dark{
   color:#CA2077;
 }
 
-/* Style Services, About and Team Sector */
+/* Style Services, About, Team Sector and footer */
 
-.services, .about, .team{
+.services, .about, .team, footer{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -219,11 +225,11 @@ a.btn-dark{
   background: #F3F4F6;
   justify-content: space-between;
   align-content: center;
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .about-left, .about-right{
-  flex-basis: 48%;
+  flex-basis: 45%;
 }
 
 .about-left{
@@ -243,7 +249,7 @@ a.btn-dark{
 .about-p{
   color: gray;
   line-height: 1.8;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .btn-read{
@@ -309,6 +315,7 @@ a.btn-dark{
 
 .lookbook{
   margin-top: 6rem;
+  margin-bottom: 4rem;
   text-align: center;
 }
 
@@ -326,6 +333,7 @@ a.btn-dark{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 1rem;
 }
 
@@ -337,6 +345,43 @@ a.btn-dark{
 .gallery img{
   margin: 1rem;
 }
+
+/*Style Footer Section */
+footer{
+  align-items: center;
+  background: #F3F4F6;
+  margin-bottom: 0;
+}
+
+footer section{
+  padding: 3rem;
+}
+
+footer h3{
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+footer p, footer a{
+  font-size: 1.2rem;
+}
+
+
+footer i{
+  font-size: 2rem;
+  color: black;
+  padding-right: 3rem;
+}
+
+footer i:hover, footer a:hover{
+  color:#CA2077;
+}
+
+footer a{
+  color:black;
+  text-decoration: none;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
